@@ -1,3 +1,6 @@
+
+#!/bin/bash
+# file_mod.sh
 echo "=== Create a file named example.txt in the current user's home directory ==="
 cd $HOME
 touch example.txt

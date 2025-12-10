@@ -1,3 +1,5 @@
+#!/bin/bash
+# file_dir.sh
 echo "=== Create a directory named linux_fundamentals in the current user's home directory ==="
 cd $HOME
 mkdir linux_fundamentals

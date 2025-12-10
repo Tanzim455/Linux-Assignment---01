@@ -1,3 +1,5 @@
+#!/bin/bash
+# file_own.sh
 echo "=== Create a directory named project in the current user's home directory. ==="
 cd $HOME
 mkdir project
