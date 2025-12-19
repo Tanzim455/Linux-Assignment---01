@@ -1,20 +1,15 @@
 #!/bin/bash
 # file_nav.sh
 
-echo "=== Listing home directory (~) ==="
+echo "=== List all the contents of the current user's home directory, and save it in a file named home_list.txt. ==="
 ls -la "$HOME" > "$HOME/home_list.txt"
 
-echo "=== Listing /var/log contents ==="
+echo "=== Change the current directory to /var/log, list its contents, and save it in a file named var_log.txt.==="
 cd /var/log && ls -la > "$HOME/var_log.txt"
 
-echo "=== Path to bash executable ==="
+echo "=== Find and display the path to the bash executable using the which command. ==="
 which bash
 
-echo "=== Current shell ==="
+echo "=== Find and display the current shell ==="
 echo "$SHELL"
 
-echo
-echo "All tasks completed!"
-echo "Files created:"
-echo "  • $HOME/home_list.txt"
-echo "  • $HOME/var_log.txt"
